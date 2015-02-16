@@ -18,49 +18,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 	<link href="css/style.css" rel="stylesheet">
 	
-
-
-<style type="text/css">
-            /* i like padding - you can ignore this css. see the actual css / less files in the repository for styling the gallery navigation */
-			div.row > div > div.row {
-				margin-bottom: 15px;
-			}
-
-			body {
-				padding-bottom: 50px;
-			}
-
-			div.top-header {
-				margin-bottom:100px;
-			}
-
-			h3.page-header {
-				margin-top: 50px;
-			}
-
-			figure {
-				position: relative;
-			}
-
-			figure figcaption {
-				font-size: 22px;
-				color: #fff;
-				text-decoration: none;
-				bottom: 10px;
-				right: 20px;
-				position: absolute;
-				background-color: #000;
-			}
-			code {
-				white-space: pre-wrap;       /* css-3 */
-				white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-				white-space: -pre-wrap;      /* Opera 4-6 */
-				white-space: -o-pre-wrap;    /* Opera 7 */
-				word-wrap: break-word;       /* Internet Explorer 5.5+ */
-			}
-        </style>
 
 </head>
 
@@ -71,7 +32,7 @@
 			</div>
 		
 <div class="row">
-    <div class="col-md-2 col-md-offset-5">
+    <div class="col-md-2 col-md-offset-5 col-xs-2 col-xs-offset-1">
 
 <div class="btn-toolbar">
     <!--Default buttons with dropdown menu-->
@@ -99,43 +60,45 @@
 
 		
 			<div id="mixedContent">
-				<div class="contentBox">
-					<div class="CardTop"><img src="images/ernieE.png" class="ernie"><h4>Ernie E.</h4>
+				<div class="contentBox" class="catchers">					
+					<a href="images/busterPosey612.png" class="img-responsive" data-toggle="lightbox" data-title="Buster Posey, San Francisco Giants" data-footer="2012 MVP campaign (24 HR, 103 RBI, 78 runs, .336 BA, .408 slugging, .957 OPS)."><img src="images/busterPosey.png" class="img-responsive" class="bigImage"></a>
 					
-					<img src="images/CardDivider.jpg" class="CardDiv" /> 
-					<h3>What:</h3>
-					<p>Started art club at school.</p>
-					<img src="images/CardDivider.jpg" class="CardDiv" />   
-					<h3>How:</h3>
-					<p>Collected money from the community with parental help.</p>
-					<img src="images/CardDivider.jpg" class="CardDiv" /> 
-					<h3>Why:</h3>
-					<p>To give back.</p>
-						
-					
+					<div class="vote">
+						<p><input type="checkbox" class="checkbox">VOTE</p>
 					</div>
 				</div> 
 
 			<div class="contentBox">
 			
-					
+					<a href="images/yadierMolina612.png" class="img-responsive" data-toggle="lightbox" data-title="Yadier Molina, St. Louis Cardinals" data-footer="Batting average (.319), runs (68), hits (161), doubles (44), RBI (80) and OPS (.836)."><img src="images/yadierMolina.png" class="img-responsive" class="bigImage"></a>
 				
-					<img src="images/yadiermolina.png" class="card" />
+					<div class="vote">
+						<p><input type="checkbox" class="checkbox">VOTE</p>
+					</div>
 					
 				</div>
 
 			<div class="contentBox">
-			<h1>The future is here!</h1>
-				<img src="images/ajaxDemo/tombstone.jpg" /><br />
-				<p>As I never saw my father or my mother, and never saw any likeness of either of them (for their days were long before the days of photographs), my first fancies regarding what they were like, were unreasonably derived from their tombstones.</p>
+			
+				<a href="images/joeMauer612.png" class="img-responsive" data-toggle="lightbox" data-title="Joe Mauer, Minnestoa Twins" data-footer="On-base percentage north of .400 five times. 13 homers, 75 RBI, 75 runs, five steals, .325 batting and an OPS in the .900 vicinity."><img src="images/joeMauer.png" class="img-responsive" class="bigImage"></a>
+				
+					<div class="vote">
+						<p><input type="checkbox" class="checkbox">VOTE</p>
+					</div>
+					
 			</div>
 
 			<div class="contentBox">
-				<a href="images/cat.jpg" class="img-responsive"" data-toggle="lightbox" data-title="Cat Category" data-footer="Maine Coon Style"><img src="images/catSmall.jpg" class="img-responsive" class="bigImage"></a>
+					<a href="images/wilinRosario612.png" class="img-responsive" data-toggle="lightbox" data-title="Wilin Rosario, Colorado Rockies" data-footer="Averaged 25 homers, 75 RBI and 65 RBI over the last two seasons."><img src="images/wilinRosario.png" class="img-responsive" class="bigImage"></a>
+					
+					<div class="vote">
+						<p><input type="checkbox" class="checkbox">VOTE</p>
+					</div>
+					
 			</div>
 
 			<div class="contentBox">
-				<img src="images/ajaxDemo/victorianLady.jpg" /><br />
+				
 				<p>From the character and turn of the inscription, 'Also Georgiana Wife of the Above,' I drew a childish conclusion that my mother was freckled and sickly.</p>
 			</div>
 
@@ -168,7 +131,7 @@
 			</div>
 			
 
-
+		
 		
 	</div> 	
 	
@@ -179,7 +142,31 @@
 		
 		
 	<footer>
-		<p>&#169;2015 Complex Intellects/Databurst Design</p>
+		<div class="scroll-pane ui-widget ui-widget-header ui-corner-all">
+<div class="scroll-content">
+<div class="scroll-content-item ui-widget-header"><a href="images/cat.jpg" class="img-responsive" data-toggle="lightbox" data-title="Cat Category" data-footer="Maine Coon Style"><img src="images/catSmall.jpg" class="img-responsive" class="bigImage"></a></div>
+
+<div class="scroll-content-item ui-widget-header"><a href="images/carlosRuiz612.png" class="img-responsive" data-toggle="lightbox" data-title="Carlos Ruiz, Philadelphia Phillies" data-footer="Philadelphia Phillies"><img src="images/carlos120.png" class="img-responsive" class="bigImage"></a></div>
+
+<div class="scroll-content-item ui-widget-header">3</div>
+<div class="scroll-content-item ui-widget-header">4</div>
+<div class="scroll-content-item ui-widget-header">5</div>
+<div class="scroll-content-item ui-widget-header">6</div>
+<div class="scroll-content-item ui-widget-header">7</div>
+<div class="scroll-content-item ui-widget-header">8</div>
+<div class="scroll-content-item ui-widget-header">9</div>
+<div class="scroll-content-item ui-widget-header">10</div>
+<div class="scroll-content-item ui-widget-header">11</div>
+<div class="scroll-content-item ui-widget-header">12</div>
+<div class="scroll-content-item ui-widget-header">13</div>
+<div class="scroll-content-item ui-widget-header">14</div>
+<div class="scroll-content-item ui-widget-header">15</div>
+<div class="scroll-content-item ui-widget-header">16</div>
+</div>
+
+
+</div>
+</div>
 		
 	</footer>
 		
@@ -254,7 +241,7 @@ $('li a').click(function(e) {
 
 	<!-- jQuery UI (Custom Download containing only Widget and Effects Core)
 	     You can make your own at: http://jqueryui.com/download -->
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 	
 	<!-- Latest version (3.1.4) of jQuery Mouse Wheel by Brandon Aaron
