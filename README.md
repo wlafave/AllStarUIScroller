@@ -1,4 +1,6 @@
 # AllStarUIScroller
+a work in progress!
+
 UI design for scrollable tool.
 
 UI design for a tool that allows users to choose players for thier fantasy teams. 
